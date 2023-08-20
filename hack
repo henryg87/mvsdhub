@@ -2,7 +2,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("Murderers  VS. Sherrifs Script Hub", "BloodTheme")
 
 --MAIN
-local Main = Window:NewTab("Best Scripts out there Rn")
+local Main = Window:NewTab("Best Scripts RN")
 local MainSection = Main:NewSection("W")
 
 
@@ -10,7 +10,7 @@ MainSection:NewButton("Admin Commands", "basically infinite yield", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
-MainSection:NewButton("KongerHub", "key:", function()
+MainSection:NewButton("KongerHub", "key:cm^'J<J%0ZI1v[f", function()
     loadstring(game:GetObjects("rbxassetid://14365908103")[1].Source)()
 end)
 
