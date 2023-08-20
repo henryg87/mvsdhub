@@ -17,3 +17,7 @@ end)
 MainSection:NewButton("My own ESP", "see through walls", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/henryg87/esp/main/w",true))();
 end)
+
+MainSection:NewButton("My own FOV changer", "fov ez", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/henryg87/fov-changer/main/fov",true))();
+end)
