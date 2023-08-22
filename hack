@@ -26,6 +26,6 @@ MainSection:NewKeybind("Speed", "speed  vroom vroom", Enum.KeyCode.F, function()
 	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
 end)
 
-MainSection:NewKeybind("Speed", "speed  vroom vroom", Enum.KeyCode.G, function()
+MainSection:NewKeybind("Speed Regular", "speed  vroom vroom", Enum.KeyCode.G, function()
 	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
 end)
