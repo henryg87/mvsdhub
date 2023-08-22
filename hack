@@ -23,7 +23,7 @@ MainSection:NewButton("My own FOV Changer", "fov", function()
 end)
 
 MainSection:NewKeybind("Speed", "speed  vroom vroom", Enum.KeyCode.F, function()
-	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 30
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 25
 end)
 
 MainSection:NewKeybind("Speed Regular", "speed  vroom vroom", Enum.KeyCode.G, function()
