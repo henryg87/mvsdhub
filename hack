@@ -29,3 +29,7 @@ end)
 MainSection:NewKeybind("Speed Regular", "speed  vroom vroom", Enum.KeyCode.G, function()
 	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
 end)
+
+MainSection:NewButton("dif hub for mvsd", "w hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Duels214/main/Sheriffs1"))()
+end)
